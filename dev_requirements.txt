@@ -1,0 +1,5 @@
+# core
+pymongo>=3.3
+# dev
+ipdb
+nose2
