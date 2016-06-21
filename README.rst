@@ -19,9 +19,9 @@ more keyword arguments:
 - ``fail_fast``: a ``bool`` indicating whether you want "fail fast" semantics
   on client creation
 - ``state_selectors``: a list of server state selectors (see
-  [Server State Selectors](#Server State Selectors))
+  [Server State Selectors](#Server-State-Selectors))
 - ``type_selectors``: a list of server type selectors (see
-  [Server Type Selectors](#Server Type Selectors))
+  [Server Type Selectors](#Server-Type-Selectors))
 
 Semantics
 ---------
