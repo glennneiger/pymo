@@ -1,4 +1,0 @@
-pymo
-====
-
-PyMongo wrapper
