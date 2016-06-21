@@ -6,7 +6,7 @@ pymo
 "fail fast" semantics on client creation. This was motivated by changes
 introduced in ``pymongo>=3`` that will cause calls to block for
 ``ServerSelectionTimeoutMS`` (see the
-[specs](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst))
+`specs <https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst>`_)
 when servers are either down or do not meet the requirements for a particular
 operation (e.g., we are trying to insert while there is no primary).
 
