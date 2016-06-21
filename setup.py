@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 import os
 import re
 import sys
@@ -24,14 +26,11 @@ setup(
         'Intended Audience :: Developers',
         'Topic :: Software Development :: pymongo',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 2.7'
     ],
     keywords='pymongo mongodb driver',
     packages=find_packages(exclude=['tests']),
-    install_requires=['pymongo>=3.2'],
+    install_requires=['pymongo>=2,<4'],
     extras_require={
         'test': ['nose2'],
     }

@@ -1,5 +1,6 @@
 # core
-pymongo>=3.3
+pymongo>=2.0,<4.0
 # dev
 ipdb
 nose2
+mock
