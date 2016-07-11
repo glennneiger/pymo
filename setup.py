@@ -7,11 +7,10 @@ import sys
 from setuptools import setup, find_packages
 
 
-prefix = os.path.abspath(os.path.dirname(__file__))
-version = re.search(r'^__version__\s*=\s*([\'"].+[\'"]).*',
-                    open(os.path.join(prefix,
-                                      'pymo',
-                                      '_version.py')).read()).group(1)
+_locals = {}
+with open('pymo/_version.py') as fd:
+    exec(fd.read(), None, _locals)
+version = _locals['__version__']
 
 
 setup(
